@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+:root {
+    --text-secondary: #a37b64;
+    --primary-brown: #6f4632 !important;
+    --secondary-wow1: #f9f6e6 !important;
+    --secondary-wow2: #e9dbc4 !important;
+    --orange: #f27d1e;
+    --dark: #000;
+    --light: #fff;
+}
+.dark {
+    color: var(--dark);
+}
+.light {
+    color: var(--light);
+}
+.orange {
+    color: var(--orange);
+}
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+/* ===== DISCOUNT-BAR ===== */
+.discount-bar {
+    background-color: var(--orange);
+    height: 3rem;
+}
+.discount-bar p {
+    font-size: 1rem;
+}
