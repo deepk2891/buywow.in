@@ -20,12 +20,40 @@
 * {
     font-family: 'Lato', sans-serif;
 }
-
+.hover-underline {
+    text-decoration: none;
+}
+.hover-underline:hover {
+    text-decoration: underline;
+}
 /* ===== DISCOUNT-BAR ===== */
 .discount-bar {
     background-color: var(--orange);
     height: 3rem;
 }
 .discount-bar p {
+    font-size: 1rem;
+}
+
+/* ===== SOCIAL-MEDIA ===== */
+.social-media {
+    height: 2.25rem;
+    border-bottom: 1px solid #d7d7d7;
+}
+.social-media a {
+    color: #4d4d4d;
+    font-size: 1.6rem;
+}
+.logo img {
+    height: 3.125rem;
+    width: 6.313rem;
+}
+
+/* ===== HEADER ===== */
+header {
+    padding: 0.7rem 0 0 0;
+    border-bottom: 1px solid #d7d7d7;
+}
+.wow-store-menu a {
     font-size: 1rem;
 }
