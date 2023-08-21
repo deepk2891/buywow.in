@@ -13,7 +13,7 @@
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
     <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="assets/vendor/swiper/css/swiper-bundle.min.css" />
     <!-- Stylesheet -->
     <link href="assets/css/style.css" rel="stylesheet">
 
@@ -78,13 +78,34 @@
             </nav>
         </div>
     </header>
+
+    <!-- HERO -->
+    <section class="hero mb-1" id="hero">
+        <div class="container-fluid g-0">
+            <img src="assets/image/hero1-1.png" alt="hero" class="img-fluid w-100 d-block d-lg-none">
+            <!-- Swiper -->
+            <div class="swiper mySwiper1 d-none d-lg-block">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="assets/image/hero1.png" alt="hero" class="img-fluid w-100">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/image/hero2.png" alt="hero" class="img-fluid w-100">
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </section>
+
     <!-- Jquery -->
     <script src="assets/vendor/jquery/jquery.min.js"></script>
 
     <!-- Bootstrap js -->
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/vendor/bootstrap/js/popper.min.js"></script>
-
+    <script src="assets/vendor/swiper/js/swiper-bundle.min.js"></script>
     <!-- js -->
     <script src="assets/js/main.js"></script>
 </body>
