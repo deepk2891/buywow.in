@@ -8,6 +8,18 @@
     --dark: #000;
     --light: #fff;
 }
+.text-secondary {
+    color: var(--text-secondary);
+}
+.primary-brown {
+    color: var(--primary-brown);
+}
+.secondary-wow1 {
+    color: var(--secondary-wow1);
+}
+.secondary-wow2 {
+    color: var(--secondary-wow2);
+}
 .dark {
     color: var(--dark);
 }
@@ -56,4 +68,53 @@ header {
 }
 .wow-store-menu a {
     font-size: 1rem;
+}
+
+/* ===== BEST-SELLING ===== */
+.best-selling {
+    background-color: var(--secondary-wow1);
+    padding: 2rem 0;
+}
+.best-selling-card {
+    background-color: var(--light);
+}
+.best-selling-card h4 {
+    font-weight: 500;
+}
+.best-selling-card .card-body {
+    background-color: var(--light);
+}
+.best-selling-card .card-body .title {
+    font-size: 16px;
+    line-height: 1.5;
+}
+.best-selling .best-selling-card .card-body .title {
+    font-size: 1rem;
+    color: var(--dark);
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    /* Limit to 2 lines important*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.best-selling .best-selling-card .card-body .desc {
+    font-size: 12px;
+    color: #057508;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    /* Limit to 2 lines important*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.addtocart {
+    padding: 0.6rem 1rem;
+    background-color: var(--orange);
+}
+.best-selling .owl-nav {
+    display: none;
+}
+.best-selling .owl-dots {
+    padding-top: 1rem;
 }
