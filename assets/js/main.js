@@ -26,3 +26,20 @@ $('#owl-carousel1').owlCarousel({
         }
     }
 })
+$('#owl-carousel2').owlCarousel({
+    // stagePadding: 50,
+    loop: false,
+    margin: 10,
+    nav: true,
+    responsive: {
+        0: {
+            items: 1
+        },
+        600: {
+            items: 3
+        },
+        1000: {
+            items: 6
+        }
+    }
+})

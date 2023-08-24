@@ -118,3 +118,32 @@ header {
 .best-selling .owl-dots {
     padding-top: 1rem;
 }
+
+/* ===== CONCERNS ===== */
+.concerns {
+    background-color: var(--secondary-wow2);
+}
+.section-heading h4 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--primary-brown);
+}
+.owl-carousel .item {
+    padding: 0 0.4rem;
+}
+.concerns img {
+    border: 1px solid white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .08);
+}
+.owl-theme .owl-dots {
+    padding: 1rem 0;
+}
+.owl-theme .owl-dots .owl-dot span {
+    background: var(--orange);
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: var(--primary-brown);
+}
+.concerns .owl-nav {
+    display: none;
+}
