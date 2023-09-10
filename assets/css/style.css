@@ -193,3 +193,16 @@ header {
 .owl-nav {
     display: none;
 }
+/* ===== SHOP-BY-INGREDIENTS ===== */
+.ingredients .owl-carousel .item .card {
+    margin: 0 0 12px 0;
+    padding: 12px;
+    border: none !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .08) !important;
+}
+.ingredients .owl-carousel .item .card {
+    transition: all 0.2s linear;
+}
+.ingredients .owl-carousel .item .card:hover {
+    transform: translateY(-10px);
+}

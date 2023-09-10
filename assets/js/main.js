@@ -65,3 +65,22 @@ $('#owl-carousel3').owlCarousel({
         }
     }
 })
+$('#owl-carousel4').owlCarousel({
+    loop: false,
+    margin: 10,
+    nav: true,
+    responsive: {
+        360: {
+            items: 1
+        },
+        576: {
+            items: 2
+        },
+        768: {
+            items: 3
+        },
+        1000: {
+            items: 4
+        }
+    }
+})
