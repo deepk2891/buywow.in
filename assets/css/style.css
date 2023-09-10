@@ -206,3 +206,7 @@ header {
 .ingredients .owl-carousel .item .card:hover {
     transform: translateY(-10px);
 }
+/* ===== SKIN-CARE ===== */
+.skin-care {
+    background-color: var(--secondary-wow1);
+}
