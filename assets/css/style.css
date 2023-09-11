@@ -286,3 +286,13 @@ header {
 .explore-blogs .owl-dots {
     padding: 0;
 }
+/* ===== SAFETY-NOTICE ===== */
+.safety-notice {
+    background-color: var(--secondary-wow1);
+}
+.safety-notice .heading {
+    color: var(--primary-brown);
+}
+.safety-notice .desc {
+    font-size: 1.2rem;
+}
