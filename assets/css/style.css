@@ -246,3 +246,13 @@ header {
     overflow: hidden;
     text-overflow: ellipsis;
 }
+/* ===== CELEB-PICKS ===== */
+.celeb-picks .card {
+    padding: 0.7rem;
+    border: none !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .08) !important;
+    transition: all 0.1s linear;
+}
+.celeb-picks .card:hover {
+    transform: translateY(-10px);
+}
