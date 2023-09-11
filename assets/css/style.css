@@ -296,3 +296,10 @@ header {
 .safety-notice .desc {
     font-size: 1.2rem;
 }
+/* ===== FOOTER ===== */
+.footer .desc {
+    font-size: 1rem;
+}
+.footer ul li {
+    font-size: 14px;
+}
