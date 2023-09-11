@@ -222,3 +222,27 @@ header {
 .filter-shadow {
     filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.08));
 }
+/* ===== CUSTOMER-TESTIMONIALS ===== */
+.testimonial {
+    background-color: var(--secondary-wow2);
+}
+.testimonial .testimonial-card {
+    background-color: var(--secondary-wow1);
+    padding: 2rem 1.5rem;
+}
+.testimonial .testimonial-card img {
+    height: 5rem;
+}
+.testimonial .testimonial-card .rating {
+    font-size: 1.5rem;
+    color: var(--primary-brown);
+}
+.testimonial .testimonial-card .desc {
+    font-size: 1.1rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    /* Limit to 4 lines important*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
